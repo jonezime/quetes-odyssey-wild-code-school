@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Parse",
+            "request": "launch",
+            "mainClass": "Parse",
+            "projectName": "java-jsonparse-jackson_123582fe"
+        }
+    ]
+}

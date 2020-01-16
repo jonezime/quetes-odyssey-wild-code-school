@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    display: block;
+}
+
+nav {
+    background-color: rgb(59, 59, 58);
+    width: 100%;
+    display: inline-block;
+}
+
+nav a {
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1.2em;
+    padding: 12.5px 20px 15px 20px;
+}
+
+nav a:hover {
+    color: #000;
+    background-color: rgb(226, 222, 222);
+}
+
+nav span {
+    font-size: 1.5em;
+}
+
+.carousel {
+    height: 200px;
+    background-color: rgb(226, 222, 222);
+}
+
+.fellows-title {
+    text-align: center;
+    font-size: 0.7em;
+    padding: 35px 0 35px 0;
+}
+
+.fellows-title span {
+    font-size: 1.5em;
+}
+
+.articles-section {
+    width: 100%;
+}
+
+.photo-article {
+    display: inline-block;
+    background-color: rgb(226, 222, 222);
+    height: 480px;
+    width: calc(100% / 3 - 5px);
+    margin: 0 auto;
+}
+
+.break {
+    background-color: rgb(87, 86, 86);
+    height: 3px;
+    width: 100%;
+    margin: 150px 0 5px 0;
+}
+
+.contact-title {
+    text-align: left;
+    border-top-color: #000;
+    border-top-width: 2px;
+}
+
+.contact-section {
+    display: block;
+    padding-top: 35px;
+}
+
+.inputs {
+    margin: 5px 95px;
+    height: 35px;
+    width: 90%;
+}
+
+.input-text {
+    margin: 5px 95px;
+    height: 100px;
+    width: 90%;
+}

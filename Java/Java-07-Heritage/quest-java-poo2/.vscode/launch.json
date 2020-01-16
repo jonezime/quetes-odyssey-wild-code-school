@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hangar",
+            "request": "launch",
+            "mainClass": "Hangar",
+            "projectName": "quest-java-poo2_1f56db0c"
+        }
+    ]
+}
